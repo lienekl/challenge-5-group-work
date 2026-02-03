@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="MsBnQ41VfsNrtmxDIq1r" name="Page-1">
+        <mxGraphModel dx="673" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="World explorer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="20" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="MVP - our goal is simple, when the user types a country name, clicks the search button this displays the country&#39;s flag, name, capital etc ..&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="110" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="world explorer -&amp;gt; title&lt;div&gt;search bar .... (button)&lt;/div&gt;&lt;div&gt;flag image&lt;/div&gt;&lt;div&gt;country - &amp;gt; croatia&lt;/div&gt;&lt;div&gt;capital&lt;/div&gt;&lt;div&gt;population&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="210" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="289.5" y="110" as="sourcePoint"/>
+                        <mxPoint x="290" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
