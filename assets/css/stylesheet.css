@@ -45,12 +45,12 @@ input {
     padding: 10px;
     margin: 20px auto;
     border-radius: 50px;
-    border: #875922 solid 1px;
+    border: #875922 solid 0px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
     text-align: center;
 }
 
-.button-form {
+#button-form {
     align-items: center;
     background-color: #3E593B;
     color: #FEF8F2;
