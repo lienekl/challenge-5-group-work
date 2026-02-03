@@ -1,7 +1,7 @@
 body {
     background-color: #FEF8F2;
     font-family: "Noto Serif", serif;
-    
+
 }
 
 .logo {
@@ -16,12 +16,18 @@ h1 {
     text-align: center;
 }
 
-.searchbar{
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #875922;
+}
+
+.searchbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: #FEF8F2;
     color: #ffffff;
     font-size: 18px;
     border-radius: 15px;
@@ -33,16 +39,19 @@ h1 {
 
 }
 
-input,
-textarea {
+input {
     width: 100%;
+    height: 30px;
     padding: 10px;
-    margin-top: 5px;
-    border-radius: 10px;
-    border: var(--primary-color) solid 1px;
+    margin: 20px auto;
+    border-radius: 50px;
+    border: #875922 solid 1px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    text-align: center;
 }
 
 .button-form {
+    align-items: center;
     background-color: #3E593B;
     color: #FEF8F2;
     border-radius: 20px;
@@ -51,7 +60,12 @@ textarea {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 0 auto;
     font-weight: bold;
     cursor: pointer;
+}
+
+input::placeholder {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
