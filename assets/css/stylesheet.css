@@ -1,0 +1,22 @@
+body {
+    background-color: #FEF8F2;
+    font-family: "Noto Serif", serif;
+    
+}
+
+.logo {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #3E593B;
+    text-align: center;
+}
+
+.searchbar{
+    display: flex;
+    margin: auto;
+}
