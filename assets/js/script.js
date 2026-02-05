@@ -17,16 +17,12 @@ searchBtn.addEventListener("click", function(){
 
          outcome.innerHTML = `
       <img src="${data[0].flags.png}">
-      <h1>${data[0].capital[0]}</h1>
-      <p>${data[0].population}</p>
+      <h3>Capital: ${data[0].capital[0]}</h3>
+      <h3>Population: ${data[0].population}</h3>
+      <h3>Region: ${data[0].region}<h3>
      
 
     `
-
-        
     })
 
-
-
-    
 });
