@@ -79,4 +79,9 @@ input::placeholder {
 }
 h3{
     color: #875922;
+    
+}
+
+.error-message{
+    color: red;
 }

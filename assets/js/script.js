@@ -29,3 +29,15 @@ searchBtn.addEventListener("click", function(){
 
 });
 
+
+    `
+    })
+
+    .catch((error) => {
+        console.error("error fetching the country:", error);
+        outcome.innerHTML = `<p class="error-message">Country not found</p>`;
+    })
+
+
+
+});
