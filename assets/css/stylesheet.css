@@ -77,18 +77,20 @@ input::placeholder {
     margin: auto;
     text-align: center;
 }
-h3{
+
+h3 {
     color: #875922;
-    
+
 }
 
-.error-message{
+.error-message {
     color: red;
 }
 
 #map {
     display: none;
-    width:400px;
+    margin: auto;
+    width: 400px;
     height: 400px;
-    background-color: red;
+
 }
