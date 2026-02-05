@@ -85,3 +85,10 @@ h3{
 .error-message{
     color: red;
 }
+
+#map {
+    display: none;
+    width:400px;
+    height: 400px;
+    background-color: red;
+}
