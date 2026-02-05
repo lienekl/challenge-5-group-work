@@ -13,6 +13,7 @@ searchBtn.addEventListener("click", function(){
         console.log(data[0].capital[0]);
         console.log(data[0].flags.png);
         console.log(data[0].population);
+
         
 
          outcome.innerHTML = `
@@ -21,11 +22,10 @@ searchBtn.addEventListener("click", function(){
       <h3>Population: ${data[0].population}</h3>
       <h3>Region: ${data[0].region}<h3>
       <h3>Timezone: ${data[0].timezones}<h3>
-      
-
      
 
     `
     })
 
 });
+

@@ -76,5 +76,7 @@ input::placeholder {
     justify-content: center;
     margin: auto;
     text-align: center;
-    
+}
+h3{
+    color: #875922;
 }
