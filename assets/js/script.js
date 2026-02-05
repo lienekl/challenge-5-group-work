@@ -3,6 +3,14 @@ let countryField = document.getElementById("countryname");
 
 
 searchBtn.addEventListener("click", function(){
+ 
+ 
+    //    if (!data[0]) {
+    //     outcome.innerHTML = `<p class="error-message">Country not found</p>`;
+    // } else {
+        
+    // }
+
 
     let countryName = countryField.value;
     let endpointURL = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`
@@ -31,8 +39,7 @@ searchBtn.addEventListener("click", function(){
        lookupLocation(capitalCity);
     })
 
-    
-
+   
     .catch((error) => {
         console.error("error fetching the country:", error);
         outcome.innerHTML = `<p class="error-message">Country not found</p>`;
