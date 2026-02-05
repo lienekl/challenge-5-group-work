@@ -27,7 +27,8 @@ searchBtn.addEventListener("click", function(){
 
     `
     document.getElementById("map").style.display="block";
-    lookupLocation(countryName);
+    let capitalCity = data[0].capital[0];
+       lookupLocation(capitalCity);
     })
 
     
