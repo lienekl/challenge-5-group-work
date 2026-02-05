@@ -21,11 +21,15 @@ searchBtn.addEventListener("click", function(){
       <h3>Population: ${data[0].population}</h3>
       <h3>Region: ${data[0].region}<h3>
       <h3>Timezone: ${data[0].timezones}<h3>
-      
-
-     
 
     `
     })
+
+    .catch((error) => {
+        console.error("error fetching the country:", error);
+        outcome.innerHTML = `<p class="error-message">Country not found</p>`;
+    })
+
+
 
 });
