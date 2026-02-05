@@ -36,7 +36,7 @@ searchBtn.addEventListener("click", function(){
     `
     document.getElementById("map").style.display="block";
     let capitalCity = data[0].capital[0];
-       lookupLocation(capitalCity);
+       lookupLocation(`${capitalCity}, ${countryName}`);
     })
 
    
