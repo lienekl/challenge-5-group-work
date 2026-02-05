@@ -20,6 +20,9 @@ searchBtn.addEventListener("click", function(){
       <h3>Capital: ${data[0].capital[0]}</h3>
       <h3>Population: ${data[0].population}</h3>
       <h3>Region: ${data[0].region}<h3>
+      <h3>Timezone: ${data[0].timezones}<h3>
+      
+
      
 
     `
